@@ -10,6 +10,7 @@
 */
 #include "intro.hpp"
 #include "help.hpp"
+#include "print.hpp"
 
 /*
     SOME DEFAULT/CONST VALUE
@@ -54,6 +55,15 @@ int main(int argc, char *argv[])
    else if (key_args[0] == "version")
    {
         cout << version << endl;
+   }
+   else if (key_args[0] == "test")
+   {
+        printError("message text here");
+        printDone("message");
+        printQA("text");
+        printInfo("text info");
+        printLoading("load");
+        printCustom("cc", "Hello test", "33");
    }
    else 
    {
