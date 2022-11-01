@@ -11,6 +11,16 @@
 #include "intro.hpp"
 #include "help.hpp"
 
+/*
+    SOME DEFAULT/CONST VALUE
+*/
+#define version = "22.11"
+
+
+
+/*
+    START POINT
+*/
 using namespace std;
 int main(int argc, char *argv[])
 {
@@ -30,10 +40,9 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    /*
-        START BODY PROGRAM
-        where system switch to sub lib
-    */
+    
+    // START BODY PROGRAM
+    // where system switch to sub lib
    if (key_args[0] == "intro")
    {
         printIntroFull();
