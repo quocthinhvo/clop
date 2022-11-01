@@ -34,20 +34,25 @@ Who owner this account can create new repository (via GitHub) and follow true SR
 ## Struct
 
 ### Basic struct tree
+***Repository struct***
 
 ```
 ├── src
 │   ├── code
 │   │   ├── main.xyz
 │   ├── resource
-│   ├── setup.bat
-│   ├── setup.sh
 ├── releases
 │   ├── 0.1.1.zip
 │   ├── lasted.zip
 ├── info.txt
+├── setup.bat (.sh)
 └── README.md
 ```
+
+***Release struct***
+
+File name: ```clop_xyz.zip```
+Another file or information follow to GitHub rule.
 
 ### Explain
 
