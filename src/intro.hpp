@@ -17,3 +17,9 @@ void printIntroText()
     cout << "Welcome to CLOP - new ultimate packages management." << endl;
     cout << "If you want to read more document, visit: " << endl;
 }
+
+void printIntroFull()
+{
+    printIntroLogo();
+    printIntroText();
+}
