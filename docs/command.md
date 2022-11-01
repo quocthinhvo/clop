@@ -16,7 +16,7 @@ clop install quocthinhvo/packa
 
 CLOP will get argument 1 is ```install``` and ```quocthinhvo/packa``` is argument 2.
 
-For simple, CLOP have ***only 2 arguments***.
+For simple, CLOP have ***maximum 3 arguments***.
 # BODY
 
 ***NOTE: Body of document will complete in develop. We will update soon.***
