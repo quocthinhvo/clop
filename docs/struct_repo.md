@@ -51,7 +51,7 @@ Who owner this account can create new repository (via GitHub) and follow true SR
 
 ***Release struct***
 
-File name: ```clop_xyz.zip```
+File name: ```clop_resource.zip```
 Another file or information follow to GitHub rule.
 
 ### Explain
@@ -91,7 +91,7 @@ curl \
 
 Response:
 
-```
+```json
 {
   "url": "https://api.github.com/repos/octocat/Hello-World/releases/1",
   "html_url": "https://github.com/octocat/Hello-World/releases/v1.0.0",
