@@ -1,7 +1,7 @@
 # CLOP
 Clop is new ultimate packages management.
 
-# What new?
+# What's new?
 
 Free, open, simple, fast, e2u are keywords about ```clop```.
 
