@@ -1,6 +1,14 @@
+/*
+    IMPORT BUILT-IN LIBRARY
+*/
 #include <iostream>
 #include <string>
 #include <vector>
+
+/*
+    IMPORT CUSTOM LIBRARY
+*/
+#include "intro.hpp"
 
 using namespace std;
 int main(int argc, char *argv[])
@@ -18,6 +26,8 @@ int main(int argc, char *argv[])
         START BODY PROGRAM
         where system switch to sub lib
     */
+   printLogoIntro();
+   printTextIntro();
    
     return 0;
 }
