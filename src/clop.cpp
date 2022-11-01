@@ -14,7 +14,7 @@
 /*
     SOME DEFAULT/CONST VALUE
 */
-#define version = "22.11"
+#define version "22.11"
 
 
 
@@ -50,6 +50,10 @@ int main(int argc, char *argv[])
    else if (key_args[0] == "help")
    {
         printHelp();
+   }
+   else if (key_args[0] == "version")
+   {
+        cout << version << endl;
    }
    else 
    {
