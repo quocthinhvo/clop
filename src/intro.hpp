@@ -1,7 +1,7 @@
 #include    <iostream>
 using namespace std;
 
-void printLogoIntro()
+void printIntroLogo()
 {
     cout << " _______  ___      _______  _______ " << endl;
     cout << "|       ||   |    |       ||       |" << endl;
@@ -12,7 +12,7 @@ void printLogoIntro()
     cout << "|_______||_______||_______||___|    " << endl;
 }
 
-void printTextIntro()
+void printIntroText()
 {
     cout << "Welcome to CLOP - new ultimate packages management." << endl;
     cout << "If you want to read more document, visit: " << endl;

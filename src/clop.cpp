@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
         START BODY PROGRAM
         where system switch to sub lib
     */
-   printLogoIntro();
-   printTextIntro();
+   printIntroLogo();
+   printIntroText();
    
     return 0;
 }
